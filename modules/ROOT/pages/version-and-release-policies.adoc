@@ -1,0 +1,56 @@
+= Version and Release Policies
+
+== Version policy
+
+The Asciidoctor project began semantic versioning with the release of Asciidoctor Core 2.0.0.
+Each software release is versioned *major.minor.patch*.
+
+Major::
+Major releases occur when there are substantial changes in functionality or when new functionality breaks backwards compatibility.
+Releases within the same major release line will maintain API compatibility.
+
+Minor::
+Minor releases add new features, improvements to existing features, and fixes that maintain backwards compatibility.
+
+Patch::
+Patch releases fix bugs and maintain backwards compatibility.
+Only the latest minor release of a major release line will receive patches.
+Patch releases happen as needed depending on the urgency of the fix.
+
+Prerelease::
+Major and minor releases may include prerelease versions (major.minor.patch-alpha.n | -beta.n | -rc.n).
+Once a release candidate (rc) has been thoroughly tested, the stable release will be published.
+
+== Release Policy
+
+General Availability (GA):: A release line, such as Asciidoctor 2.x, enters general availability on the date the initial, final major version (e.g., Asciidoctor 2.0.0) of the software is released and available for download.
+
+Active:: Release line is being actively improved and supported.
+
+Maintenance:: Once a release line enters its maintenance period, only its most recent minor version will receive critical security patch releases.
+A release line starts this phase 30 days after the next major release line goes GA.
+
+End of Life (EOL):: The date after which the release line no longer receives support or releases.
+
+Dates are formatted as year/month/day.
+
+[%autowidth]
+|===
+|Project Release Line |Latest Release |Status |GA |Maintenance |EOL
+
+|Asciidoctor Core 2.x
+|{core-current}
+|Active
+|2019/03/22
+|TBD
+|TBD
+
+|Asciidoctor Core 1.5.8
+|1.5.8
+|EOL
+|2018/05/02
+|2019/04/22
+|2019/12/31
+|===
+
+The information on this page is believed to be accurate as of the date of publication, but updates and revisions may be posted periodically and without notice.

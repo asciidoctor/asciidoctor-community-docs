@@ -13,7 +13,7 @@ To learn how to build this documentation using the playbook and Antora, see the 
 
 Copyright (C) 2012-2020 Sarah White, Dan Allen, and the individual contributors to Asciidoctor.
 Except where otherwise noted, the content of the Asciidoctor project documentation and websites is licensed under a https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International License].
-The use of the {url-org}[Asciidoctor projects] is granted under the terms of each software project's license.
+The use of the {url-org}[Asciidoctor projects] are granted under the terms of each software project's license.
 
 == Trademarks
 

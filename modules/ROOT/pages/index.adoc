@@ -1,0 +1,7 @@
+= About the Asciidoctor Project
+:navtitle: About
+
+The Asciidoctor project is an effort to bring a comprehensive and accessible publishing toolchain, centered around the AsciiDoc syntax, to a growing range of ecosystems.
+
+In addition to AsciiDoc processors for the Ruby, JavaScript, and JVM platforms, the project provides build tool, browser, and IDE plugins, as well as extensions for use cases such as diagramming and charts.
+The Asciidoctor project also pushes AsciiDoc to evolve by introducing new ideas and innovation and helps promote AsciiDoc through education and advocacy.

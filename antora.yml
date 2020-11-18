@@ -1,9 +1,11 @@
 name: project
 title: Asciidoctor Project
 version: master
+display_version: current
 asciidoc:
   attributes:
     xrefstyle: short@
     listing-caption: Example@
+    core-current: '2.0.12'
 nav:
 - modules/ROOT/nav.adoc
