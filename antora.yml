@@ -1,0 +1,9 @@
+name: project
+title: Asciidoctor Project
+version: master
+asciidoc:
+  attributes:
+    xrefstyle: short@
+    listing-caption: Example@
+nav:
+- modules/ROOT/nav.adoc
