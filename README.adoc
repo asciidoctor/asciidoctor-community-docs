@@ -1,0 +1,20 @@
+= Asciidoctor Project Documentation
+:url-org: https://github.com/asciidoctor
+
+This repository contains the general policies and processes that apply to the Asciidoctor community and ecosystem.
+
+== Documentation Structure
+
+This repository is a registered content source in the {url-org}/docs.asciidoctor.org/blob/main/antora-playbook.yml[playbook file for docs.asciidoctor.org].
+The source files are organized into a documentation component as described by the [.path]_antora.yml_ file.
+To learn how to build this documentation using the playbook and Antora, see the https://docs.antora.org/antora/2.3/install-and-run-quickstart/[Install and Run Antora Quickstart].
+
+== Copyright and License
+
+Copyright (C) 2012-2020 Sarah White, Dan Allen, and the individual contributors to Asciidoctor.
+Except where otherwise noted, the content of the AsciiDoc documentation and websites is licensed under a https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International License].
+The use of the {url-org}[Asciidoctor projects] is granted under the terms of each software project's license.
+
+== Trademarks
+
+AsciiDoc is a Trademark of the Eclipse Foundation, Inc.
