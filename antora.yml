@@ -1,7 +1,6 @@
 name: community
-title: Asciidoctor Community
+title: Home
 version: master
-display_version: current
 asciidoc:
   attributes:
     xrefstyle: short@
