@@ -1,0 +1,4 @@
+= Asciidoctor Documentation
+:navtitle: Home
+
+Welcome to the Asciidoctor documentation site!
