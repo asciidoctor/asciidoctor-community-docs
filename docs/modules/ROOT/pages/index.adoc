@@ -1,10 +1,36 @@
 = Asciidoctor Community
 :navtitle: About
 
-The Asciidoctor community of projects (aka Asciidoctor project) is an ongoing effort to develop a comprehensive and accessible toolchain and workbench for writing and publishing AsciiDoc content across various platforms and runtimes.
+The Asciidoctor community of projects (aka Asciidoctor Project) is an perpetual effort to develop an accessible, comprehensive, and open source toolchain and workbench for writing and publishing AsciiDoc content across various platforms and runtimes.
 
-In addition to AsciiDoc processors for the Ruby, JavaScript, and JVM platforms, the community develops plugins for build tools, browsers, and IDEs, as well as extended converters for producing additional output formats and extensions for augmenting documents with rich media such as diagrams and charts.
+In addition to AsciiDoc processors for Ruby, the JVM platform, and JavaScript, the community develops plugins/add-ons for automation tools, browsers, and IDEs, as well as extended converters for producing additional output formats, adapters for expanding integrations, and extensions for augmenting AsciiDoc documents with rich media such as diagrams and charts.
 
-The Asciidoctor community also pushes AsciiDoc to evolve by introducing new ideas and innovation and helps promote AsciiDoc through education and advocacy.
-Most notably, Asciidoctor has been the driving force behind the initiative to establish a https://www.eclipse.org/org/workinggroups/asciidoc-charter.php[working group for AsciiDoc^] at the Eclipse Foundation.
+The Asciidoctor community also pushes the AsciiDoc language to evolve by introducing new ideas and innovations and promotes AsciiDoc through documentation and advocacy.
+
+== Projects
+
+The Asciidoctor Project is a loosely knit collection of projects.
+All Asciidoctor projects are open source (either MIT or Apache 2.0).
+The source repositories for these projects are https://github.com/asciidoctor[hosted on GitHub^].
+Each project has its own project lead(s) and maintainers (aka project team), who determine how the project is run.
+All contributors volunteer their time to work on a project.
+https://github.com/asciidoctor/asciidoctor[Asciidoctor^] is the primary project and, as such, provides the overall direction and vision for the community.
+Projects generally xref:version-and-release-policies.adoc[follow semantic versioning], though it's not (yet) true of all projects.
+
+== Relationship to AsciiDoc
+
+Asciidoctor serves as the reference parser/interpreter for the AsciiDoc syntax as we know it today.
+In other words, Asciidoctor is the official reference for how to parse and convert modern AsciiDoc.
+
+Given this standing, Asciidoctor is inherently compliant with the AsciiDoc syntax.
+And Asciidoctor has evolved the AsciiDoc syntax since it took over this role from AsciiDoc.py.
+Yet, to continue evolving the syntax while encouraging more implementations without introducing divergence, we know we need a more formal definition for what AsciiDoc is.
+In other words, we need an AsciiDoc standard that's independent from Asciidoctor.
+
+The Asciidoctor project has been a driving force behind the initiative to establish a https://www.eclipse.org/org/workinggroups/asciidoc-charter.php[working group for AsciiDoc^] at the Eclipse Foundation.
 The main goal of the AsciiDoc Working Group is to oversee the creation of a formal specification for the AsciiDoc language.
+While Asciidoctor plans to become a compliant implementation, the specification and associated compliance program also invites other implementations to emerge.
+
+== The future
+
+We expect the Asciidoctor Project to play a leading role in the AsciiDoc community for many years to come.

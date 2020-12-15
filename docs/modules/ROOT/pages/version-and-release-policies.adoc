@@ -2,7 +2,7 @@
 
 == Version policy
 
-The Asciidoctor project began semantic versioning with the release of Asciidoctor Core 2.0.0.
+The Asciidoctor Ruby project began semantic versioning with the release of Asciidoctor 2.0.0.
 Each software release is versioned *major.minor.patch*.
 
 Major::
