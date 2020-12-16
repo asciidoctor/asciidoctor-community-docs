@@ -6,41 +6,40 @@ Welcome to the Asciidoctor documentation site!
 Here you can find the reference materials, guides, and examples to write and publish content in AsciiDoc using Asciidoctor.
 This documentation will help you start your journey with AsciiDoc or dive deeper if you're already well on your way.
 
-
-.xref:asciidoc::index.adoc[Learn about AsciiDoc]
 [.panel]
 --
-AsciiDoc is a plain text language for writing content such as documentation, articles, and blog posts.
-If you're just starting out with AsciiDoc and want to discover what it's all about, head over to the xref:asciidoc::index.adoc[documentation for the AsciiDoc Language].
+[discrete]
+== xref:asciidoc::index.adoc[Learn about AsciiDoc]
+
+AsciiDoc is a plain text authoring format (i.e., lightweight markup language) for writing technical content such as documentation, articles, and blog posts.
+If you're just starting out with AsciiDoc, or want to discover what it's all about, head over to the xref:asciidoc::index.adoc[documentation for the AsciiDoc Language].
 You'll learn everything from how to make your first AsciiDoc document to how to use advanced language features such as list continuations and tailoring substitutions.
 
 If you need a condensed refresher, or want a glimpse of what AsciiDoc has to offer, check out the xref:asciidoc::syntax-quick-reference.adoc[syntax quick reference].
 You can also find a side-by-side xref:asciidoc::asciidoc-vs-markdown.adoc[comparison with Markdown] if you're looking to upgrade.
-
-The language documentation is primarily about the source you type to compose a document.
-One you're done writing and want to publish your AsciiDoc document, you'll need an AsciiDoc processor.
 --
 
-//.xref:asciidoctor::index.adoc[Publish AsciiDoc content]
-//.xref:asciidoctor::index.adoc[Process AsciiDoc content]
-//.xref:asciidoctor::index.adoc[AsciiDoc processing]
-.xref:asciidoctor::index.adoc[Process your AsciiDoc content]
 [.panel]
 --
-That's where Asciidoctor comes in.
+[discrete]
+== xref:asciidoctor::index.adoc[Process your AsciiDoc content]
+
+The AsciiDoc language documentation is primarily about the source you type to compose a document.
+One you're done writing and want to publish your AsciiDoc document, you'll need an AsciiDoc processor.
+That's where Asciidoctor fits in.
 
 xref:asciidoctor::index.adoc[Asciidoctor] is the core AsciiDoc processor.
-It reads the AsciiDoc source you entered, parses it into a document model, and converts it to another format such as HTML.
-Asciidoctor has a xref:asciidoctor:cli:index.adoc[CLI] and xref:asciidoctor:api:index.adoc[API] that you can use to invoke either a built-in converter (HTML, DocBook, man page) or an extended converter.
-Asciidoctor enriches the HTML it produces from an AsciiDoc document by applying a xref:asciidoctor:html-backend:default-stylesheet.adoc[default stylesheet], adding stylistic icons, and xref:asciidoctor:syntax-highlighting:index.adoc[syntax highlighting] source blocks.
+It reads the AsciiDoc source, parses it into a document model, and converts it to a publishable format such as HTML using a converter.
+Asciidoctor has both a xref:asciidoctor:cli:index.adoc[CLI] and an xref:asciidoctor:api:index.adoc[API] that you can use to invoke a built-in converter (HTML, DocBook, man page) or an extended converter.
+Asciidoctor enriches the HTML it produces from AsciiDoc by applying a xref:asciidoctor:html-backend:default-stylesheet.adoc[default stylesheet], adding stylistic icons, and xref:asciidoctor:syntax-highlighting:index.adoc[syntax highlighting] source blocks.
 --
 
-[discrete#chose]
-=== Choose Your Runtime
+[discrete]
+=== Choose a processor
 
 There are three variants of Asciidoctor that share the same code base.
 With few exceptions, these variants all provide the full Asciidoctor experience.
-From these three implementations extend a host of extensions, build tool integrations, and tooling plugins.
+From these three implementations extend a host of extensions, build tool integrations, and tooling plugins in the xref:about::index.adoc[Asciidoctor community] and beyond.
 Choose the one that best suits the language platform you're using.
 
 [.grid]
@@ -49,25 +48,26 @@ The original code base enables you to run Asciidoctor using any Ruby implementat
 JRuby and TruffleRuby allow you to use Asciidoctor on a JVM.
 
 AsciidoctorJ (Java)::
+//xref:asciidoctorj::index.adoc[AsciidoctorJ (Java)]::
 A Java library that encapsulates the use of JRuby to load and run Asciidoctor on the JVM.
-It provides a CLI and native Java API wrappers for all of the Asciidoctor APIs and enables you to write Asciidoctor extensions in Java.
+It provides a CLI as well as native Java API wrappers for all of the Asciidoctor APIs and even enables you to write Asciidoctor extensions in Java.
 
 xref:asciidoctor.js::index.adoc[Asciidoctor.js (JavaScript)]::
 Transpiles Asciidoctor into JavaScript so you can run it in the browser or a Node.js application.
-It provides a CLI and a porcelain API for methods in the Asciidoctor document model and enables you to write Asciidoctor extensions in JavaScript.
+It provides a CLI as well as a porcelain API for methods in the Asciidoctor document model and even enables you to write Asciidoctor extensions in JavaScript.
 
-[discrete#explore]
+[discrete]
 === Explore Asciidoctor
 
 [.grid]
 Build automation::
 Convert your content from AsciiDoc automatically when you run your build.
 Encapsulate assets, configuration profiles, and extensions for your publishing process in your build scripts.
-Even convert content in your source code or test suite.
+Even extract and convert AsciiDoc inside Javadoc comments or include snippets from your test suite.
 
 * xref:maven-tools::index.adoc[Maven tools]
-* *Gradle plugin*
-* *Asciidoclet (for Javadoc)*
+//* *Gradle plugin*
+//* *Asciidoclet (for Javadoc)*
 
 Slide presentations::
 Author HTML slide presentations in AsciiDoc without having to wrestle with the clutter of HTML.
@@ -78,12 +78,12 @@ Reserve the option of single sourcing your content for publishing to other forma
 Site generation::
 Want to build a documentation site like this one?
 AsciiDoc can be used as the source format for the content of a site.
-An AsciiDoc processor, such as Asciidoctor.js, and be use to integrate that content into a full site build.
+A static site generator can delegate to an AsciiDoc processor to convert AsciiDoc files in the site source to embedded HTML, then apply a template to that output to generate pages for the site.
 
 * https://antora.org[Antora^]
 
 Essential reference::
-Don't miss these essential reference materials for writing and publishing content with AsciiDoc and Asciidoctor.
+Keep this essential reference material for writing and publishing content with AsciiDoc and Asciidoctor close at hand.
 
 * xref:asciidoc::syntax-quick-reference.adoc[AsciiDoc syntax quick reference]
 * xref:asciidoc:attributes:document-attributes-reference.adoc[Document attributes]
