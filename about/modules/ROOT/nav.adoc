@@ -1,1 +1,2 @@
+* xref:support.adoc[]
 * xref:version-and-release-policies.adoc[]
