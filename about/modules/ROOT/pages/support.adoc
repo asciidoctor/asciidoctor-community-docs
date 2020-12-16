@@ -1,0 +1,22 @@
+= Help Resources
+
+To be successful writing and publishing AsciiDoc content with Asciidoctor, we encourage you to maintain a dialogue with the projects and fellow community members.
+Don't hesitate to ask questions and discuss any aspects of the project in the various communication channels listed below.
+Each project may provide more focused communication channels as well.
+Your feedback helps drives the projects forward by providing use cases, ideas, metrics, and motivation.
+
+Real-time chat (Platform: Gitter)::
+https://gitter.im/asciidoctor/asciidoctor
+
+Discussion list (aka mailing list) (Platform: Nabble)::
+https://discuss.asciidoctor.org
+
+Issue tracker (Platform: GitHub)::
+https://github.com/asciidoctor/asciidoctor/issues +
+Please direct general support questions to the chat channel or discussion list.
+
+Twitter::
+Reach out to https://twitter.com/asciidoctor[@asciidoctor] or mention the http://discuss.asciidoctor.org[#asciidoctor] hashtag.
+
+Please understand that all members of this community are volunteers and support is provided to fellow community members out of good will / personal interest.
+If you're seeking professional support, you can ask the project maintainers or other community members if they offer any services.
