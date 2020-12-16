@@ -11,7 +11,7 @@ The Asciidoctor community also pushes the AsciiDoc language to evolve by introdu
 
 The Asciidoctor Project is a loosely knit collection of projects.
 All Asciidoctor projects are open source (either MIT or Apache 2.0).
-The source repositories for these projects are https://github.com/asciidoctor[hosted on GitHub^].
+The source repositories and issue trackers for these projects are https://github.com/asciidoctor[hosted on GitHub^].
 Each project has its own project lead(s) and maintainers (aka project team), who determine how the project is run.
 All contributors volunteer their time to work on a project.
 https://github.com/asciidoctor/asciidoctor[Asciidoctor^] is the primary project and, as such, provides the overall direction and vision for the community.
