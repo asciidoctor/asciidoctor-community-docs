@@ -77,8 +77,8 @@ Reserve the option of single sourcing your content for publishing to other forma
 
 Site generation::
 Want to build a documentation site like this one?
-AsciiDoc can be used as the source format for the content of a site.
-A static site generator can delegate to an AsciiDoc processor to convert AsciiDoc files in the site source to embedded HTML, then apply a template to that output to generate pages for the site.
+Write the content for the site in AsciiDoc.
+A static site generator delegates to an AsciiDoc processor to convert the AsciiDoc files to embedded HTML, then applies a template to that HTML to generate pages for the site.
 
 * https://antora.org[Antora^]
 
