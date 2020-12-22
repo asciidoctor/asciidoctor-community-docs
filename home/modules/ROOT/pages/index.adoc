@@ -37,7 +37,7 @@ Asciidoctor enriches the HTML it produces from AsciiDoc by applying a xref:ascii
 [discrete]
 === Choose a processor
 
-There are three variants of Asciidoctor that share the same code base.
+There are three variants of the core Asciidoctor processor that all share the same code base.
 With few exceptions, these variants all provide the full Asciidoctor experience.
 From these three implementations extend a host of extensions, build tool integrations, and tooling plugins in the xref:about::index.adoc[Asciidoctor community] and beyond.
 Choose the one that best suits the language platform you're using.
@@ -47,14 +47,14 @@ xref:asciidoctor::index.adoc[Asciidoctor (Ruby)]::
 The original code base enables you to run Asciidoctor using any Ruby implementation, including C Ruby, JRuby, and TruffleRuby.
 JRuby and TruffleRuby allow you to use Asciidoctor on a JVM.
 
+xref:asciidoctor.js::index.adoc[Asciidoctor.js (JavaScript)]::
+Transpiles Asciidoctor into JavaScript so you can run it in the browser or a Node.js application.
+It provides a CLI as well as a porcelain API for methods in the Asciidoctor document model and even enables you to write Asciidoctor extensions in JavaScript.
+
 AsciidoctorJ (Java)::
 //xref:asciidoctorj::index.adoc[AsciidoctorJ (Java)]::
 A Java library that encapsulates the use of JRuby to load and run Asciidoctor on the JVM.
 It provides a CLI as well as native Java API wrappers for all of the Asciidoctor APIs and even enables you to write Asciidoctor extensions in Java.
-
-xref:asciidoctor.js::index.adoc[Asciidoctor.js (JavaScript)]::
-Transpiles Asciidoctor into JavaScript so you can run it in the browser or a Node.js application.
-It provides a CLI as well as a porcelain API for methods in the Asciidoctor document model and even enables you to write Asciidoctor extensions in JavaScript.
 
 [discrete]
 === Explore Asciidoctor
