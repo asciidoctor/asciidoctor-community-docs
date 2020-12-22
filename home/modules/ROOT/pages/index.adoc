@@ -51,7 +51,7 @@ xref:asciidoctor.js::index.adoc[Asciidoctor.js] [.emblem]#JavaScript#::
 Transpiles Asciidoctor into JavaScript so you can run it in the browser or a Node.js application.
 It provides a CLI as well as a porcelain API for methods in the Asciidoctor document model and even enables you to write Asciidoctor extensions in JavaScript.
 
-xref:asciidoctorj::index.adoc[AsciidoctorJ] [.emblem]#Java#::
+xref:asciidoctorj::index.adoc[AsciidoctorJ] [.emblem]#Java/JVM#::
 A Java library that encapsulates the use of JRuby to load and run Asciidoctor on the JVM.
 It provides a CLI as well as native Java API wrappers for all of the Asciidoctor APIs and even enables you to write Asciidoctor extensions in Java.
 
