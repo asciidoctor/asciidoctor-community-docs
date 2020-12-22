@@ -43,16 +43,15 @@ From these three implementations extend a host of extensions, build tool integra
 Choose the one that best suits the language platform you're using.
 
 [.grid]
-xref:asciidoctor::index.adoc[Asciidoctor (Ruby)]::
+xref:asciidoctor::index.adoc[Asciidoctor] (Ruby)::
 The original code base enables you to run Asciidoctor using any Ruby implementation, including C Ruby, JRuby, and TruffleRuby.
 JRuby and TruffleRuby allow you to use Asciidoctor on a JVM.
 
-xref:asciidoctor.js::index.adoc[Asciidoctor.js (JavaScript)]::
+xref:asciidoctor.js::index.adoc[Asciidoctor.js] (JavaScript)::
 Transpiles Asciidoctor into JavaScript so you can run it in the browser or a Node.js application.
 It provides a CLI as well as a porcelain API for methods in the Asciidoctor document model and even enables you to write Asciidoctor extensions in JavaScript.
 
-AsciidoctorJ (Java)::
-//xref:asciidoctorj::index.adoc[AsciidoctorJ (Java)]::
+xref:asciidoctorj::index.adoc[AsciidoctorJ] (Java)::
 A Java library that encapsulates the use of JRuby to load and run Asciidoctor on the JVM.
 It provides a CLI as well as native Java API wrappers for all of the Asciidoctor APIs and even enables you to write Asciidoctor extensions in Java.
 
