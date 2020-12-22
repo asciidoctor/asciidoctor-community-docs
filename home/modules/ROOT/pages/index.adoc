@@ -42,7 +42,7 @@ With few exceptions, these variants all provide the full Asciidoctor experience.
 From these three implementations extend a host of extensions, build tool integrations, and tooling plugins in the xref:about::index.adoc[Asciidoctor community] and beyond.
 Choose the one that best suits the language platform you're using.
 
-[.grid]
+[.grid.has-emblems]
 xref:asciidoctor::index.adoc[Asciidoctor] [.emblem]#Ruby#::
 The original code base enables you to run Asciidoctor using any Ruby implementation, including C Ruby, JRuby, and TruffleRuby.
 JRuby and TruffleRuby allow you to use Asciidoctor on a JVM.
