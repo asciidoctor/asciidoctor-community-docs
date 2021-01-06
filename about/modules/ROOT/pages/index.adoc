@@ -17,6 +17,28 @@ All contributors volunteer their time to work on a project.
 https://github.com/asciidoctor/asciidoctor[Asciidoctor^] is the primary project and, as such, provides the overall direction and vision for the community.
 Projects generally xref:version-and-release-policies.adoc[follow semantic versioning], though it's not (yet) true of all projects.
 
+== Documentation
+
+All the documentation on this site is written in AsciiDoc and published by https://docs.antora.org[Antora^].
+
+The source of the documentation is not stored in a single location.
+Rather, the documentation is stored with the project it documents.
+For example, the documentation for the core Asciidoctor processor can be found under the docs folder in the repository at https://github.com/asciidoctor/asciidoctor.
+Antora aggregates the documentation from multiple repositories and publishes it together to make this site.
+
+The repository that contains the build manifest that pulls all the documentation together is located at https://github.com/asciidoctor/docs.asciidoctor.org.
+We refer to this as the playbook repository.
+The documentation content sources are defined in the Antora playbook file, https://github.com/asciidoctor/docs.asciidoctor.org/blob/main/antora-playbook.yml[antora-playbook.yml].
+The location of the UI (i.e., the bundle of page templates, CSS, images, and scripts) of the site is also defined in the playbook file.
+The UI is stored in yet another repository at https://github.com/asciidoctor/asciidoctor-docs-ui, which also hosts the released UI bundles.
+The build amounts to passing that playbook file to the `antora` command.
+
+ $ antora antora-playbook.yml
+
+The site gets built and published nightly and on each commit to the playbook repository.
+If you submit a PR to the playbook repository, you will be provided with a deploy preview that includes any additional content sources you've added to the playbook repository.
+See the https://github.com/asciidoctor/docs.asciidoctor.org[playbook repository] for more information about how the site is built and how to build and preview it on your own machine.
+
 == Relationship to AsciiDoc
 
 Asciidoctor serves as the reference parser/interpreter for the AsciiDoc syntax as we know it today.
