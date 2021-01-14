@@ -65,8 +65,8 @@ Encapsulate assets, configuration profiles, and extensions for your publishing p
 Even extract and convert AsciiDoc inside Javadoc comments or include snippets from your test suite.
 
 * xref:maven-tools::index.adoc[Maven tools]
+* xref:asciidoclet::index.adoc[Asciidoclet (for Javadoc)]
 //* *Gradle plugin*
-//* *Asciidoclet (for Javadoc)*
 
 Slide presentations::
 Author HTML slide presentations in AsciiDoc without having to wrestle with the clutter of HTML.
