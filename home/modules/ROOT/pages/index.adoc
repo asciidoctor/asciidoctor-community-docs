@@ -68,11 +68,15 @@ Even extract and convert AsciiDoc inside Javadoc comments or include snippets fr
 * xref:asciidoclet::index.adoc[Asciidoclet (for Javadoc)]
 //* *Gradle plugin*
 
-Slide presentations::
+Extensions::
 Author HTML slide presentations in AsciiDoc without having to wrestle with the clutter of HTML.
 Reserve the option of single sourcing your content for publishing to other formats.
 
 * xref:reveal.js-converter::index.adoc[reveal.js converter]
++
+Add diagrams to the output file that are generated from plain text markup inside your AsciiDoc document.
+
+* xref:diagram-extension::index.adoc[Diagram extension]
 
 Site generation::
 Want to build a documentation site like this one?
