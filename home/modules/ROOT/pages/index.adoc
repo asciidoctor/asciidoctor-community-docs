@@ -30,7 +30,7 @@ That's where Asciidoctor fits in.
 
 xref:asciidoctor::index.adoc[Asciidoctor] is the core AsciiDoc processor.
 It reads the AsciiDoc source, parses it into a document model, and converts it to a publishable format such as HTML using a converter.
-Asciidoctor has both a xref:asciidoctor:cli:index.adoc[CLI] and an xref:asciidoctor:api:index.adoc[API] that you can use to invoke a built-in converter (HTML, DocBook, man page) or an extended converter.
+Asciidoctor has both a xref:asciidoctor:cli:index.adoc[CLI] and an xref:asciidoctor:api:index.adoc[API] that you can use to invoke a built-in converter (HTML, DocBook, man page) or an add-on converter.
 Asciidoctor enriches the HTML it produces from AsciiDoc by applying a xref:asciidoctor:html-backend:default-stylesheet.adoc[default stylesheet], adding stylistic icons, and xref:asciidoctor:syntax-highlighting:index.adoc[syntax highlighting] source blocks.
 --
 
