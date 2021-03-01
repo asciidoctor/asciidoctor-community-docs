@@ -95,10 +95,10 @@ Keep this essential reference material for writing and publishing content with A
 
 On any page, you can press the kbd:[s] key to focus the search box.
 Enter one or more terms (i.e., a query) to search the documentation.
-As you enter your query, the search results will be displayed immediately below the search box.
+As you enter your query, the search results will be displayed in a panel immediately below the search box.
 You can navigate the search results either using the mouse or the up and down keys.
 To navigate to a result, hover over it with the mouse curosr and click it with the left mouse button.
-You can also press kbd:[Enter] when the result is highlighted with the light blue selection box.
+You can also press kbd:[Enter] (or kbd:[Tab]) when the result is highlighted with the light blue selection box to navigate to a result.
 
 The search will look for results using fuzzy matching.
 That means it will locate pages with words or phrases that are close to what you entered, but not exactly.
@@ -112,3 +112,4 @@ If you want to limit the scope of the search to the documentation for the versio
 
 If you want to keep the search results open while you are looking for the best result, you can open the result in a new tab in the normal way.
 For example, you can right click on the result and select "Open link in new tab" or you can hold down kbd:[Ctrl] when you click the link.
+To close the search results, press kbd:[Esc] or click anywhere outside of the panel of search results.
