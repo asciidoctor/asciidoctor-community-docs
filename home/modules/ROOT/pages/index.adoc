@@ -3,7 +3,7 @@
 :page-role: home
 
 Welcome to the Asciidoctor documentation site!
-Here you can find the reference materials, guides, and examples to write and publish content in AsciiDoc using Asciidoctor.
+Here <<search-tips,you can find>> the reference materials, guides, and examples to write and publish content in AsciiDoc using Asciidoctor.
 This documentation will help you start your journey with AsciiDoc or dive deeper if you're already well on your way.
 
 [.panel]
@@ -89,3 +89,26 @@ Keep this essential reference material for writing and publishing content with A
 * xref:asciidoc:attributes:document-attributes-reference.adoc[Document attributes]
 * xref:asciidoctor:cli:index.adoc[CLI reference]
 * xref:asciidoctor:api:index.adoc[API reference]
+
+[discrete#search-tips]
+=== How to search the docs
+
+On any page, you can press the kbd:[s] key to focus the search box.
+Enter one or more terms (i.e., a query) to search the documentation.
+As you enter your query, the search results will be displayed immediately below the search box.
+You can navigate the search results either using the mouse or the up and down keys.
+To navigate to a result, hover over it with the mouse curosr and click it with the left mouse button.
+You can also press kbd:[Enter] when the result is highlighted with the light blue selection box.
+
+The search will look for results using fuzzy matching.
+That means it will locate pages with words or phrases that are close to what you entered, but not exactly.
+This strategy helps bridge the gap between your terminology or phrasing with that used in the documentation.
+If you want to look for an exact match, enclose the query in double quotes (e.g., `"the details of the syntax"`).
+This strategy helps you to find exactly what you're looking for with no false positives.
+However, it will yield less results.
+
+By default, the search looks for results across the whole documentation site.
+If you want to limit the scope of the search to the documentation for the version of the project you're currently looking at, tick the "In this project" checkbox.
+
+If you want to keep the search results open while you are looking for the best result, you can open the result in a new tab in the normal way.
+For example, you can right click on the result and select "Open link in new tab" or you can hold down kbd:[Ctrl] when you click the link.
