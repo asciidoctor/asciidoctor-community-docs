@@ -5,8 +5,8 @@ Don't hesitate to ask questions and discuss any aspects of the project in the va
 Each project may provide more focused communication channels as well.
 Your feedback helps drives the projects forward by providing use cases, ideas, metrics, and motivation.
 
-Real-time chat (Platform: Gitter)::
-https://gitter.im/asciidoctor/asciidoctor
+Real-time chat (Platform: Zulip)::
+https://asciidoctor.zulipchat.com/
 
 Discussion list (aka mailing list) (Platform: Nabble)::
 https://discuss.asciidoctor.org
