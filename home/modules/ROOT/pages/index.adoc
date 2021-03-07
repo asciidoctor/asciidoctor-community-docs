@@ -93,12 +93,21 @@ Keep this essential reference material for writing and publishing content with A
 [discrete#search-tips]
 === How to search the docs
 
-On any page, you can press the kbd:[s] key (or kbd:[Ctrl,/]) to focus the search box.
+On any page, you can press kbd:[s] or kbd:[Ctrl,/] to focus the search box.
 Enter one or more terms (i.e., a query) to search the documentation.
 As you enter your query, the search results will be displayed in a panel immediately below the search box.
-You can navigate the search results either using the mouse or the up and down keys.
-To navigate to a result, hover over it with the mouse curosr and click it with the left mouse button.
-You can also press kbd:[Enter] (or kbd:[Tab]) when the result is highlighted with the light blue selection box to navigate to a result.
+You can browse the list of search results and navigate to a result using either the mouse or the keyboard.
+
+To navigate to a result in the current tab using the mouse, hover over it with the mouse cursor and click on it using the left mouse button.
+If you want to keep the search results open while you're looking for the best result, you can open the result in a new tab.
+To open a result in a new tab, either hold down kbd:[Ctrl] when you click the result, or right click on it and select "Open link in new tab".
+To clear the search, click anywhere outside of the panel of search results.
+
+To navigate to a result using the keyboard, first use the up and down arrow keys to choose a result.
+This action will highlight the current result with a light blue selection box.
+You can then press kbd:[Enter] when the result is highlighted to navigate to that result in the current tab.
+To open a result in a new tab, press kbd:[Ctrl,Enter] instead.
+To clear the search, press kbd:[Esc].
 
 The search will look for results using fuzzy matching.
 That means it will locate pages with words or phrases that are close to what you entered, but not exactly.
@@ -109,7 +118,4 @@ However, it will yield less results.
 
 By default, the search looks for results across the whole documentation site.
 If you want to limit the scope of the search to the documentation for the version of the project you're currently looking at, tick the "In this project" checkbox.
-
-If you want to keep the search results open while you are looking for the best result, you can open the result in a new tab in the normal way.
-For example, you can right click on the result and select "Open link in new tab" or you can hold down kbd:[Ctrl] when you click the link.
-To close the search results, press kbd:[Esc] or click anywhere outside of the panel of search results.
+You can toggle this checkbox when the search results are open to compare the results for the whole site with those for the current project version.
