@@ -95,7 +95,8 @@ Keep this essential reference material for writing and publishing content with A
 
 On any page, you can press kbd:[s] or kbd:[Ctrl,/] to focus the search box.
 Enter one or more terms (i.e., a query) to search the documentation.
-As you enter your query, the search results will be displayed in a panel immediately below the search box.
+Alternately, you can press kbd:[Ctrl,<] to restore the previous search.
+As you type your query, the search results will be displayed in a panel immediately below the search box.
 You can browse the list of search results and navigate to a result using either the mouse or the keyboard.
 
 To navigate to a result in the current tab using the mouse, hover over it with the mouse cursor and click on it using the left mouse button.
