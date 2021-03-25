@@ -116,6 +116,8 @@ This strategy helps bridge the gap between your terminology or phrasing with tha
 If you want to look for an exact match, enclose the query in double quotes (e.g., `"the details of the syntax"`).
 This strategy helps you to find exactly what you're looking for with no false positives.
 However, it will yield less results.
+Another way to narrow the results is to prefix one or more terms with `-` (e.g., `-document`).
+Adding this prefix will exclude results that contain that term.
 
 By default, the search looks for results across the whole documentation site.
 If you want to limit the scope of the search to the documentation for the version of the project you're currently looking at, tick the "In this project" checkbox.
