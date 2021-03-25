@@ -114,6 +114,7 @@ The search will look for results using fuzzy matching.
 That means it will locate pages with words or phrases that are close to what you entered, but not exactly.
 This strategy helps bridge the gap between your terminology or phrasing with that used in the documentation.
 If you want to look for an exact match, enclose the query in double quotes (e.g., `"the details of the syntax"`).
+You can also quote individual terms to disable the typo tolerance (e.g., `"toc" position`).
 This strategy helps you to find exactly what you're looking for with no false positives.
 However, it will yield less results.
 Another way to narrow the results is to prefix one or more terms with `-` (e.g., `-document`).
