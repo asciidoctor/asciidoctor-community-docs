@@ -24,7 +24,8 @@ Once a release candidate (rc) has been thoroughly tested, the stable release wil
 === Version line branches
 
 Each minor version line is managed as a separate branch in the repository.
-These version line branches are named using the pattern `<major>.<minor>.x` (e.g., v2.0.x, v2.1.x, v3.0.0, etc).
+These version line branches are named using the pattern `v<major>.<minor>.x` (e.g., v2.0.x, v2.1.x, v3.0.0, etc).
+(The `v` prefix is used to distinguish version line branches and to make matching them using a pattern simpler).
 Patch releases for a minor release are made from these version line branches.
 Typically, though, patch releases are only made for the current (aka latest) minor release.
 Exceptions are made on a case-by-case basis to address security vulnerabilities and other high-priority issues.
