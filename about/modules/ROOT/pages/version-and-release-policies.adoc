@@ -56,6 +56,7 @@ Maintenance:: Once a release line enters its maintenance period, only its most r
 A release line starts this phase 30 days after the next major release line goes GA.
 
 End of Life (EOL):: The date after which the release line no longer receives support or releases.
+Once a release line reaches EOL, the CI workflow for the corresponding branch is disabled to indicate it's no longer receiving updates.
 
 Dates are formatted as year/month/day.
 
