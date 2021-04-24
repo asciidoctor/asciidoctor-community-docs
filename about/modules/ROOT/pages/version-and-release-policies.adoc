@@ -1,9 +1,11 @@
 = Version and Release Policies
+:url-semver: https://semver.org
 
 == Version policy
 
-The Asciidoctor core project began semantic versioning with the release of Asciidoctor 2.0.0.
-Each software release is versioned *major.minor.patch*.
+Starting with the 2.0.0, Asciidoctor core uses {url-semver}[semantic versioning^] as its versioning system.
+This versioning system is used as a way to communicate with users and set expecations about what types of changes a release will contain.
+Each software release is versioned as *major.minor.patch* (e.g., 2.0.0).
 
 Major::
 Major releases occur when there are substantial changes in functionality or when new functionality breaks backwards compatibility.
