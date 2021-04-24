@@ -2,7 +2,7 @@
 
 == Version policy
 
-The Asciidoctor Ruby project began semantic versioning with the release of Asciidoctor 2.0.0.
+The Asciidoctor core project began semantic versioning with the release of Asciidoctor 2.0.0.
 Each software release is versioned *major.minor.patch*.
 
 Major::
@@ -20,6 +20,28 @@ Patch releases happen as needed depending on the urgency of the fix.
 Prerelease::
 Major and minor releases may include prerelease versions (major.minor.patch-alpha.n | -beta.n | -rc.n).
 Once a release candidate (rc) has been thoroughly tested, the stable release will be published.
+
+=== Version line branches
+
+Each minor version line is managed as a separate branch in the repository.
+These version line branches are named using the pattern `<major>.<minor>.x` (e.g., v2.0.x, v2.1.x, v3.0.0, etc).
+Patch releases for a minor release are made from these version line branches.
+Typically, though, patch releases are only made for the current (aka latest) minor release.
+Exceptions are made on a case-by-case basis to address security vulnerabilities and other high-priority issues.
+
+Often, the current minor release is stored on the default branch of the repository.
+This simplifies the management of the source code as it avoids having to merge the same change into multiple branches.
+Once room needs to be made for the next minor (which could be the .0 minor release of the next major), the minor release is swept off to its own version line branch.
+
+Generally, the process for managing version line branches is as follows:
+
+* Publish the .0 patch release (e.g., 2.1.0 or 3.0.0)
+* Make bug fixes to the default branch and publish patch releases as necessary
+* Create a minor branch and update the version in the default branch to be the next minor (or the next major, if the situation calls for it)
+* Commit changes for the next minor (or major) to the default branch
+* Repeat
+
+The documentation is organized by minor version and is thus pulled from the minor version branches.
 
 == Release Policy
 
