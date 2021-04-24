@@ -4,7 +4,7 @@
 == Version policy
 
 Starting with the 2.0.0, Asciidoctor core uses {url-semver}[semantic versioning^] as its versioning system.
-This versioning system is used as a way to communicate with users and set expecations about what types of changes a release will contain.
+This versioning system is used as a way to communicate with users and set expectations about what types of changes a release will contain.
 Each software release is versioned as *major.minor.patch* (e.g., 2.0.0).
 
 Major::
