@@ -1,7 +1,6 @@
 name: about
 title: Community
-version: master
-display_version: current
+version: ~
 asciidoc:
   attributes:
     xrefstyle: short@
