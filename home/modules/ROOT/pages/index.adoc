@@ -11,7 +11,7 @@ This documentation will help you start your journey with AsciiDoc or dive deeper
 [discrete]
 == xref:asciidoc::index.adoc[Learn about AsciiDoc]
 
-AsciiDoc is a plain text authoring format (i.e., lightweight markup language) for writing technical content such as documentation, articles, and blog posts.
+AsciiDoc is a plain text authoring format (i.e., lightweight markup language) for writing technical content such as documentation, articles, and books.
 If you're just starting out with AsciiDoc, or want to discover what it's all about, head over to the xref:asciidoc::index.adoc[documentation for the AsciiDoc Language].
 You'll learn everything from how to make your first AsciiDoc document to how to use advanced language features such as list continuations and tailoring substitutions.
 
