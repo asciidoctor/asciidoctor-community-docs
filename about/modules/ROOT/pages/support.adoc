@@ -5,15 +5,16 @@ Don't hesitate to ask questions and discuss any aspects of the project in the va
 Each project may provide more focused communication channels as well.
 Your feedback helps drives the projects forward by providing use cases, ideas, metrics, and motivation.
 
-Real-time chat (Platform: Zulip)::
-https://asciidoctor.zulipchat.com/
+Community chat (Platform: Zulip)::
+https://asciidoctor.zulipchat.com
 
 Discussion list (aka mailing list) (Platform: Nabble)::
 https://discuss.asciidoctor.org
 
 Issue tracker (Platform: GitHub)::
 https://github.com/asciidoctor/asciidoctor/issues +
-Please direct general support questions to the chat channel or discussion list.
+Please file issues for projects other than Asciidoctor core (e.g., AsciidoctorJ) in the issue tracker for the respective project. +
+Please direct general usage questions to the community chat or discussion list.
 
 Twitter::
 Reach out to https://twitter.com/asciidoctor[@asciidoctor] or mention the http://discuss.asciidoctor.org[#asciidoctor] hashtag.
