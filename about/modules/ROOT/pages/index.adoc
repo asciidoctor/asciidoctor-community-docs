@@ -62,9 +62,11 @@ And Asciidoctor has evolved the AsciiDoc syntax since it took over this role fro
 Yet, to continue evolving the syntax while encouraging more implementations without introducing divergence, we know we need a more formal definition for what AsciiDoc is.
 In other words, we need an AsciiDoc standard that's independent from Asciidoctor.
 
-The Asciidoctor project has been a driving force behind the initiative to establish a https://www.eclipse.org/org/workinggroups/asciidoc-charter.php[working group for AsciiDoc^] at the Eclipse Foundation.
-The main goal of the AsciiDoc Working Group is to oversee the creation of a formal specification for the AsciiDoc language.
+Along with OpenDevise, the Asciidoctor project has been a driving force behind the creation of the https://asciidoc-wg.eclipse.org[AsciiDoc Working Group^] at the Eclipse Foundation.
+The main goal of the AsciiDoc Working Group is to oversee the creation of a formal specification for the https://projects.eclipse.org/projects/asciidoc.asciidoc-lang[AsciiDoc language^].
 While Asciidoctor plans to become a compliant implementation, the specification and associated compliance program also invites other implementations to emerge.
+At least one such implementation will be developed under the Eclipse Foundation Development Process (EFDP).
+That project is https://projects.eclipse.org/projects/asciidoc.austen[Eclipse Austen^], which aims to be an independent, compliant AsciiDoc processor that can run on the JVM.
 
 == The future
 
