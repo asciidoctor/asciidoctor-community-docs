@@ -21,17 +21,30 @@ Projects generally xref:version-and-release-policies.adoc[follow semantic versio
 
 All the documentation on this site is written in AsciiDoc and published by https://docs.antora.org[Antora^].
 
-The source of the documentation is not stored in a single location.
-Rather, the documentation is stored with the project it documents.
-For example, the documentation for the core Asciidoctor processor can be found under the docs folder in the repository at https://github.com/asciidoctor/asciidoctor.
-Antora aggregates the documentation from multiple repositories and publishes it together to make this site.
+The source of this site is not stored in a single repository.
+Rather, it's distributed across multiple repositories.
+This strategy is used to ensure that the content, the build, and the UI (aka theme) are not intermingled and can be managed independently.
+Most notably, the documentation for each project is stored alongside the project it documents.
+Antora aggregates the materials from all these repositories to produce a unified site.
 
-The repository that contains the build manifest that pulls all the documentation together is located at https://github.com/asciidoctor/docs.asciidoctor.org.
-We refer to this as the playbook repository.
-The documentation content sources are defined in the Antora playbook file, https://github.com/asciidoctor/docs.asciidoctor.org/blob/main/antora-playbook.yml[antora-playbook.yml].
-The location of the UI (i.e., the bundle of page templates, CSS, images, and scripts) of the site is also defined in the playbook file.
-The UI is stored in yet another repository at https://github.com/asciidoctor/asciidoctor-docs-ui, which also hosts the released UI bundles.
-The build amounts to passing that playbook file to the `antora` command.
+Here's a summary of the repositories that go into making this site.
+
+https://github.com/asciidoctor/docs.asciidoctor.org[playbook repository (docs.asciidoctor.org)]::
+Contains the build manifest that pulls all the documentation together and configures the site.
+The documentation content sources and UI bundle are defined in the Antora playbook file, https://github.com/asciidoctor/docs.asciidoctor.org/blob/main/antora-playbook.yml[antora-playbook.yml].
+
+content repositories::
+Each repository contains the documentation for the project it documents.
+For example, the documentation for Asciidoctor core can be found under the docs folder in the repository located at https://github.com/asciidoctor/asciidoctor.
+You can find the location of the documentation for other projects by following the "`Edit this Page`" link on each page.
+The location of these repositories is defined in the Antora playbook file.
+
+https://github.com/asciidoctor/asciidoctor-docs-ui[UI repository (asciidoctor-docs-ui)]::
+Contains the UI materials (i.e., page templates, CSS, images, and scripts) and a build script that compiles them together into a UI bundle.
+It also hosts the released UI bundles.
+The location of the UI bundle is defined in the Antora playbook file.
+
+The build of the site amounts to passing the Antora playbook file from the playbook repository to the `antora` command.
 
  $ antora antora-playbook.yml
 
