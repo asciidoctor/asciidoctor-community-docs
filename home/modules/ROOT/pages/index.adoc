@@ -1,4 +1,4 @@
-= Asciidoctor Documentation Home
+= Asciidoctor Documentation Site
 :navtitle: Home
 :page-role: home
 
