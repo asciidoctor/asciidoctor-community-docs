@@ -1,6 +1,7 @@
 = Asciidoctor Documentation Site
 :navtitle: Home
 :page-role: home
+:page-aliases: home.adoc
 
 Welcome to the Asciidoctor documentation site!
 Here <<search-tips,you can find>> the reference materials, guides, and examples to write and publish content in AsciiDoc using Asciidoctor.
