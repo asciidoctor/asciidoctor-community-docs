@@ -1,0 +1,103 @@
+= History
+
+AsciiDoc as we know it today has been two decades in the making.
+
+The idea of creating a shorthand format for DocBook named AsciiDoc was first conceived by Stuart Rackham in 2002 (even before Markdown).
+Stuart launched this new shorthand language and processor as the AsciiDoc.py project.
+That project evolved for a decade before Asciidoctor showed up on the scene to become its successor.
+
+The development of Asciidoctor was motivated by the need to process AsciiDoc in Ruby for use by the GitHub application and for publishing the git documentation online.
+As the story goes, GitHub was in the process of removing support for AsciiDoc since AsciiDoc.py had known attack vectors and invoking it through a subprocess was deemed suboptimal and insecure.
+At the same time, GitHub had started developing a Ruby implementation of AsciiDoc (which would become Asciidoctor) for the git website.
+Thanks to a collaboration between developers at GitHub (namely Ryan Waldron) and Red Hat (Dan Allen), they matured Asciidoctor enough to stand in for AsciiDoc.py.
+Support for AsciiDoc on GitHub was saved!
+
+Asciidoctor was the first project to implement the AsciiDoc syntax in another language, in this case Ruby.
+The decision to write the code in Ruby also proved beneficial for allowing the same code base to be shared across Ruby, the JVM platform, and JavaScript runtimes due to the portability of Ruby itself.
+
+== Timeline
+
+Below you can find a timeline of major events of AsciiDoc's history leading up to the 2.0.0 release of Asciidoctor and the formation of the AsciiDoc Working Group.
+
+[horizontal,labelwidth=20%]
+Nov 25, 2002:: First public release of AsciiDoc.py (1.0) by Stuart Rackham
+Nov 25, 2002:: AsciiDoc.py project registered at SourceForge.net under the name *asciidoc*
+Nov 25, 2002:: First publication of AsciiDoc.py website at http://www.methods.co.nz/asciidoc (written in AsciiDoc and powered by AsciiDoc.py)
+Oct 23, 2007:: AsciiDoc.py source repository converted to mercurial and transferred Google Code +
+see https://code.google.com/archive/p/asciidoc/
+Mar 01, 2012:: Dan discovers AsciiDoc and posts about it to Google+ +
+archived at https://asciidoctor.org/news/2012/03/01/wow-asciidoc-is-incredible/
+Apr 03, 2012:: First commit of asciidoc.rb (Asciidoctor prototype) by Nick Hengeveld to https://github.com/git/git-scm.com +
+see https://github.com/git/git-scm.com/commit/5a5edecfc2c4a1bcff86af432e062d2c6f860bed
+Jun 01, 2012:: First commit to Asciidoctor by Ryan Waldron based on the prototype written by Nick Hengeveld and others for the Git website (git-scm.com)
+see https://github.com/asciidoctor/asciidoctor/commit/67833eed5cb7a22499662f2d98734ef08ae61eca
+Jun 14, 2012:: First release of Asciidoctor by Ryan Waldron to https://rubygems.org/gems/asciidoctor +
+see https://rubygems.org/gems/asciidoctor/versions/0.0.1
+Aug 03, 2012:: Asciidoctor replaces the asciidoc.rb (Asciidoctor prototype) in the git-scm.com repository +
+see https://github.com/git/git-scm.com/blob/ab9efdc8d95c65b9e74954a4847de8b8f98486fb/lib/asciidoc.rb (last version of prototype) and https://github.com/git/git-scm.com/pull/582/commits/90d47b8a1f54e73431e5a2db088bb2b5d32545d4 (switch to Asciidoctor)
+Dec 03, 2012:: asciidoc.org domain registered by Dan Allen
+Dec 10, 2012:: Stuart Rackham gives his support for Asciidoctor +
+"`Hat's off to anyone who can port AsciiDoc with reasonable fidelity.`"
+Dec 27, 2012:: asciidoctor.org domain registered
+Jan 08, 2013:: GitHub disables AsciiDoc rendering in GitHub repositories due to security concerns with AsciiDoc.py
+Jan 17, 2013:: GitHub reenables AsciiDoc rendering in GitHub repositories using Asciidoctor instead of AsciiDoc.py +
+announcement: https://asciidoctor.org/news/2013/01/30/asciidoc-returns-to-github/
+Jan 30, 2013:: Asciidoctor project transferred to the asciidoctor organization on GitHub +
+see https://github.com/asciidoctor/asciidoctor
+Jan 30, 2013:: Initial Asciidoctor website published (written in AsciiDoc and powered by Asciidoctor) +
+announcement: https://asciidoctor.org/news/2013/04/08/a-new-resource-for-asciidoc/
+Feb 04, 2013:: First release of the Asciidoctor Gradle Plugin by Andres Almiray and the Basel Hackergarten group
+Feb 18, 2013:: First release of the Asciidoctor Maven Plugin by Jason Porter +
+announcement: https://asciidoctor.org/news/2013/04/16/introducing-the-asciidoctor-maven-plugin/
+Mar 18, 2013:: First commit to AsciidoctorJ by Alex Soto
+Apr 11, 2013:: First release of AsciidoctorJ (then Asciidoctor Java integration) by Alex Soto +
+announcement: https://asciidoctor.org/news/2013/04/18/enjoy-the-magic-of-asciidoctor-in-java/
+Apr 16, 2013:: Project leadership of Asciidoctor transferred from Ryan Waldron to Dan Allen
+Apr 28, 2013:: Asciidoctor Maven Plugin switches to using AsciidoctorJ (then Asciidoctor Java integration) by Jason Porter +
+announcement: https://asciidoctor.org/news/2013/04/28/asciidoctor-maven-plugin-0-1-2-released/
+Apr 25, 2013:: First release published by Dan Allen of Asciidoctor to https://rubygems.org/gems/asciidoctor +
+see https://rubygems.org/gems/asciidoctor/versions/0.1.2 +
+announcement: https://asciidoctor.org/news/2013/04/25/asciidoctor-0-1-2-released/
+May 18, 2013:: Dan got Asciidoctor working in JavaScript (converting the whole AsciiDoc Python user guide)
+May 19, 2013:: First commit of Asciidoctor.js by Dan Allen
+May 21, 2013:: First working prototype of Asciidoctor.js by Dan Allen +
+announcement: https://asciidoctor.org/news/2013/05/21/asciidoctor-js-render-asciidoc-in-the-browser/
+May 31, 2013:: Asciidoctor 0.1.3 released, marking a transition from implementing AsciiDoc to beginning to advance it +
+announcement: https://asciidoctor.org/news/2013/05/31/asciidoctor-0-1-3-released/
+Jun 01, 2013:: First release of Asciidoclet by John Ericksen +
+announcement: https://asciidoctor.org/news/2013/06/03/asciidoclet-announcement/
+Sep 05, 2013:: Asciidoctor 0.1.4 released with an extension facility and numerous language enhancements +
+announcement: https://asciidoctor.org/news/2013/09/05/asciidoctor-0-1-4-released/
+Sep 18, 2013:: First release of the Asciidoctor.js browser extension (then Live Preview) by Guillaume Grossetie +
+announcement: https://asciidoctor.org/news/2013/09/18/introducing-asciidoctor-js-live-preview/
+Nov 27, 2013:: Stuart Rackham approves moving the AsciiDoc.py source code to the asciidoc organization on GitHub
+Dec 21, 2013:: AsciiDoc.py source repository converted to git and transferred to the asciidoc organization on GitHub +
+see https://github.com/asciidoc/asciidoc
+Feb 13, 2014:: First Asciidoctor Diagram release by Pepijn Van Eeckhoudt +
+announcement: https://asciidoctor.org/news/2014/02/18/plain-text-diagrams-in-asciidoctor/
+Jul 29, 2014:: First release of Asciidoctor EPUB3 by Dan Allen
+Jul 31, 2014:: First Asciidoctor.js release by Guillaume Grossettie
+Aug 12, 2014:: Asciidoctor 1.5.0 released, introducing a modernized syntax for AsciiDoc +
+announcement: https://asciidoctor.org/news/2014/08/12/asciidoctor-1-5-0-released/
+Aug 21, 2014:: First version of AsciidoctorJ released with its new name by Alex Soto +
+announcement: https://asciidoctor.org/news/2014/08/21/asciidoctorj-1-5-0-released/
+Aug 23, 2014:: Asciidoctor.js 1.5.0 released with feature parity with Asciidoctor Ruby by Guillaume Grossetie and Anthonny Quérouil +
+announcement: https://asciidoctor.org/news/2014/08/23/asciidoctor-js-1-5-0-released/
+Sep 04, 2014:: First release of Asciidoctor PDF by Dan Allen
+Mar 31, 2015:: asciidoc.org resolves to main AsciiDoc.py website
+Nov 26, 2016:: Asciidoctor gem downloaded over 1 million times
+Nov 06, 2017:: Asciidoctor gets a brand identity and official logo, contributed by mmajko +
+see https://github.com/asciidoctor/brand
+Dec 31, 2018:: Semantic versioning adopted by Asciidoctor Project +
+announcement: https://asciidoctor.org/news/2018/12/31/making-the-switch-to-semver/
+Jan 07, 2019:: Announcement of intent to launch an AsciiDoc specification +
+announcement: https://asciidoctor.org/news/2019/01/07/asciidoc-spec-proposal/
+Mar 22, 2019:: First release of Asciidoctor 2 by Dan Allen +
+announcement: https://github.com/asciidoctor/asciidoctor/releases/tag/v2.0.0
+Apr 24, 2019:: First release of AsciidoctorJ 2 by Robert Panzer
+Jan 20, 2020:: First release of Asciidoctor EPUB3 under leadership of Marat Radchenko
+Jul 21, 2020:: AsciiDoc Working Group officially formed +
+see https://www.eclipse.org/lists/asciidoc-wg/msg00113.html
+Dec 13, 2020:: Asciidoctor gem downloaded over 10 million times
+Jan 05, 2021:: Launch of new docs site for Asciidoctor at https://docs.asciidoctor.org
+Mar 03, 2021:: Launch of new project chat for Asciidoctor at https://asciidoctor.zulipchat.com
