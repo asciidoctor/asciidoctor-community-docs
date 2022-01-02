@@ -2,6 +2,8 @@
 
 AsciiDoc as we know it today has been two decades in the making.
 
+== Overview
+
 The idea of creating a shorthand format for DocBook named AsciiDoc was first conceived by Stuart Rackham in 2002 (even before Markdown).
 Stuart launched this new shorthand language and processor as the AsciiDoc.py project.
 That project evolved for a decade before Asciidoctor showed up on the scene to become its successor.
