@@ -1,23 +1,75 @@
-= Help Resources
+= Get Help
 
-To be successful writing and publishing AsciiDoc content with Asciidoctor, we encourage you to maintain a dialogue with the projects and fellow community members.
-Don't hesitate to ask questions and discuss any aspects of the project in the various communication channels listed below.
-Each project may provide more focused communication channels as well.
-Your feedback helps drives the projects forward by providing use cases, ideas, metrics, and motivation.
+To be successful at writing and publishing AsciiDoc content with Asciidoctor, we encourage you to maintain a dialogue with the project maintainers and other community members.
+Don't hesitate to ask questions and discuss any aspects of the project using an appropriate communication channel listed below.
+Your feedback helps drive the projects forward by providing use cases, ideas, metrics, and motivation.
 
-Community chat (Platform: Zulip)::
-https://asciidoctor.zulipchat.com
+NOTE: Each project may provide more focused or preferred communication channels.
+Please refer to the help section for the respective project to find those details.
 
-Discussion list (aka mailing list) (Platform: Nabble)::
-https://discuss.asciidoctor.org
+[#chat]
+== Project chat
 
-Issue tracker (Platform: GitHub)::
-https://github.com/asciidoctor/asciidoctor/issues +
-Please file issues for projects other than Asciidoctor core (e.g., AsciidoctorJ) in the issue tracker for the respective project. +
-Please direct general usage questions to the community chat or discussion list.
+[horizontal]
+Platform:: Zulip
+URL:: https://asciidoctor.zulipchat.com
 
-Twitter::
-Reach out to https://twitter.com/asciidoctor[@asciidoctor] or mention the http://discuss.asciidoctor.org[#asciidoctor] hashtag.
+If you want to ask for help, share feedback, or exchange ideas with fellow community members in real time, please join the project chat.
+The project chat is the preferred means of communication for all Asciidoctor users.
 
-Please understand that all members of this community are volunteers and support is provided to fellow community members out of good will / personal interest.
+If you find an ongoing discussion that matches the topic you're interested in, feel free to join that discussion.
+(Hint: please make use of the search feature).
+Otherwise, please post a new topic in the `#users` stream (not the `#community` stream).
+Only post to a different stream if you understand the stream's purpose and have determined that your topic is suitable for it.
+For example, if you're asking a question specifically about AsciidoctorJ, please post to the `#users/asciidoctorj` stream.
+
+The discussions in the project chat are archived, but there's no guarantee those logs will be saved indefinitely.
+Keep in mind that users participate in the project chat voluntarily, so please respect their time.
+
+[#discuss]
+== Discussion list (aka mailing list)
+
+[horizontal]
+Platform:: Nabble
+URL:: https://discuss.asciidoctor.org
+
+You can also ask for help, share feedback, or exchange ideas with fellow community members over email using the discussion list.
+Before you post to the discussion list for the first time, you must request to join.
+This moderation step helps protect subscribers of the list from receiving off-topic and junk messages.
+
+Since the discussion list relies on email, interaction is always asynchronous.
+Fewer people subscribe to the discussion list compared to other communication channels, so you may find responses to be slower than when using the project chat.
+The advantage of the discussion list is that you can participate using only your email client and it's easier to link to the messages.
+However, we're currently considering phasing out this means of communication.
+
+== Issue tracker
+
+[horizontal]
+Platform:: GitHub
+URL:: https://github.com/asciidoctor/asciidoctor/issues
+
+IMPORTANT: Please file issues for projects other than Asciidoctor core (such as AsciidoctorJ) in the issue tracker for the respective project.
+
+The preferred means of reporting verifiable bugs, regressions, and security vulnerabilities or for making formal change requests is the project issue tracker.
+Please direct general usage questions to the project chat or discussion list.
+
+Any significant change or decision about the project is recorded in the issue tracker.
+The issue tracker is also used for planning releases.
+
+== Social media
+
+[horizontal]
+Platform:: Twitter
+URL:: https://twitter.com/asciidoctor
+
+If you want to share your experience with Asciidoctor or help promote it, we encourage you to post about it on social media.
+When you post about Asciidoctor on Twitter, you can mention the official account for the project, https://twitter.com/asciidoctor[@asciidoctor].
+You can also use the https://twitter.com/search?q=%23asciidoctor[#asciidoctor] hashtag to help others find your post or discover others who are talking about it.
+
+== Please be considerate
+
+Please understand that all members of this community are volunteers and support is provided to fellow community members at will and often out of personal interest.
+When using these communication channels, we expect you to uphold the https://github.com/asciidoctor/.github/blob/main/CODE-OF-CONDUCT.md[Code of Conduct].
+
 If you're seeking professional support, you can ask the project maintainers or other community members if they offer any services.
+Otherwise, keep in mind that people participating in this project do not work for you.
