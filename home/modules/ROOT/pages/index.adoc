@@ -1,10 +1,11 @@
 = Asciidoctor Documentation Site
 :navtitle: Home
+:description: Home of the documentation for Asciidoctor and family. Find reference material, guides, and examples to write content in AsciiDoc and publish it using Asciidoctor.
 :page-role: home
 :page-aliases: home.adoc
 
 Welcome to the Asciidoctor documentation site!
-Here <<search-tips,you can find>> the reference materials, guides, and examples to write and publish content in AsciiDoc using Asciidoctor.
+Here <<search-tips,you can find>> the reference material, guides, and examples to write content in AsciiDoc and publish it using Asciidoctor.
 This documentation will help you start your journey with AsciiDoc or dive deeper if you're already well on your way.
 
 [.panel]
