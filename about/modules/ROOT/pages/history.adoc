@@ -103,3 +103,4 @@ see https://www.eclipse.org/lists/asciidoc-wg/msg00113.html
 Dec 13, 2020:: Asciidoctor gem downloaded over 10 million times
 Jan 05, 2021:: Launch of new docs site for Asciidoctor at https://docs.asciidoctor.org
 Mar 03, 2021:: Launch of new project chat for Asciidoctor at https://asciidoctor.zulipchat.com
+Apr 20, 2022:: Relaunch of the https://asciidoc.org[asciidoc.org] site to reflect the current status and direction of AsciiDoc under the governance of the AsciiDoc WG
