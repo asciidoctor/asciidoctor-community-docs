@@ -71,7 +71,7 @@ However, all new questions, feedback, announcements, and other general discourse
 == Please be considerate
 
 Please understand that all members of this community are volunteers and support is provided to fellow community members at will and often out of personal interest.
-When using these communication channels, we expect you to uphold the https://github.com/asciidoctor/.github/blob/main/CODE-OF-CONDUCT.md[Code of Conduct].
+When using these communication channels, we expect you to uphold the xref:code-of-conduct.adoc[Code of Conduct].
 
 If you're seeking professional support, you can ask the project maintainers or other community members if they offer any services.
 Otherwise, keep in mind that people participating in this project do not work for you.
