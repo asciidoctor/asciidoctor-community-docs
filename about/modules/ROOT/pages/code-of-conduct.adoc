@@ -1,0 +1,6 @@
+= Code of Conduct
+
+All Asciidoctor projects and community spaces are govered by the https://github.com/asciidoctor/.github/blob/main/CODE-OF-CONDUCT.md[Asciidoctor Code of Conduct].
+By participating, you're agreeing to honor this code.
+Let's work together to make this community a welcoming, professional, inclusive, and safe environment for everyone.
+The health of the community is just as important to us as the health of the software.
