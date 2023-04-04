@@ -1,7 +1,7 @@
 = Asciidoctor Community
 :navtitle: About
 
-The Asciidoctor community of projects (aka Asciidoctor Project) is an perpetual effort to develop an accessible, comprehensive, and open source toolchain and workbench for writing and publishing AsciiDoc content across various platforms and runtimes.
+The Asciidoctor community of projects (aka Asciidoctor Project) is a perpetual effort to develop an accessible, comprehensive, and open source toolchain and workbench for writing and publishing AsciiDoc content across various platforms and runtimes.
 
 In addition to AsciiDoc processors for Ruby, the JVM platform, and JavaScript, the community develops plugins/add-ons for automation tools, browsers, and IDEs, as well as extended converters for producing additional output formats, adapters for expanding integrations, and extensions for augmenting AsciiDoc documents with rich media such as diagrams and charts.
 
