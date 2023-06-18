@@ -15,9 +15,11 @@ Please refer to the help section for the respective project to find those detail
 Platform:: Zulip
 URL:: https://chat.asciidoctor.org
 
-If you want to ask for help, share feedback, or exchange ideas with fellow community members in real time, please do so in the project chat.
 *The project chat is the preferred means of communication for all users of Asciidoctor.*
+This policy helps keep the project sustainable.
+If you want to ask for help, share feedback, or exchange ideas with fellow community members in real time, please do so in the project chat.
 
+The chat is partitioned into streams.
 If you find an ongoing discussion that matches the topic you're interested in, feel free to join that discussion.
 Otherwise, please post a new topic in the `#users` stream (*not* the `#community` stream).
 Please do not post unrelated questions or comments to an existing topic since that disrupts the discussion and makes answers more difficult to find.
@@ -31,7 +33,7 @@ If you aren't sure where to post, you can always start with the `#users` stream 
 The discussions in the project chat are archived and public.
 There's no guarantee those logs will be saved indefinitely, though we plan keep them as long as we're permitted to do so.
 
-Keep in mind that users participate in the project chat voluntarily, so please be respectful of their time.
+Keep in mind that users participate in the project chat voluntarily, so please be respectful of their time and interests.
 The project chat is not 1-on-1 support.
 You are in a public forum.
 
