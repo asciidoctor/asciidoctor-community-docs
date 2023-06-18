@@ -15,19 +15,30 @@ Platform:: Zulip
 URL:: https://chat.asciidoctor.org
 
 If you want to ask for help, share feedback, or exchange ideas with fellow community members in real time, please do so in the project chat.
-*The project chat is the preferred means of communication for all Asciidoctor users.*
+*The project chat is the preferred means of communication for all users of Asciidoctor.*
 
 If you find an ongoing discussion that matches the topic you're interested in, feel free to join that discussion.
 Otherwise, please post a new topic in the `#users` stream (*not* the `#community` stream).
-Only post to a different stream if you understand the stream's purpose and have determined that your topic is suitable for it.
-For example, if you're asking a question specifically about AsciidoctorJ, please post to the `#users/asciidoctorj` stream.
+Please do not post unrelated questions or comments to an existing topic since that disrupts the discussion and makes answers more difficult to find.
 
-TIP: Please make use of the search feature to find existing topics before starting a new one.
+TIP: Please use the filter or search feature to find existing topics before starting a new one.
+
+If you're starting a new topic that relates to a specific project, check if there's a stream for that project and post to that stream instead of the `#users` stream.
+For example, if you want to ask a question that only applies to AsciidoctorJ, please create the topic in the `#users/asciidoctorj` stream.
+If you aren't sure where to post, you can always start with the `#users` stream and a moderator will relocate the topic if necessary.
 
 The discussions in the project chat are archived and public.
 There's no guarantee those logs will be saved indefinitely, though we plan keep them as long as we're permitted to do so.
 
-Keep in mind that users participate in the project chat voluntarily, so please respect their time.
+Keep in mind that users participate in the project chat voluntarily, so please be respectful of their time.
+The project chat is not 1-on-1 support.
+You are in a public forum.
+
+Do not `@` mention someone when writing a message unless a) the subject matter absolutely requires the attention of that person or b) that person has already replied to the topic and is interacting with you.
+Using the `@` mention to draw attention to your question is not courteous to that person or fair to others.
+You're free to post your message to the community at large (no `@` mention).
+If someone has something to share in response, they will do so if and when they have time.
+You can reference someone without notifying them using the `@_` prefix, which is considered acceptable conduct.
 
 == Issue tracker
 
