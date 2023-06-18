@@ -1,4 +1,5 @@
 = Get Help
+:page-aliases: support.adoc
 
 To be successful at writing and publishing AsciiDoc content with Asciidoctor, we encourage you to maintain a dialogue with the project maintainers and other community members.
 Don't hesitate to ask questions and discuss any aspects of the project using an appropriate communication channel listed below.
