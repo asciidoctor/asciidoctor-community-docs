@@ -33,9 +33,9 @@ If you aren't sure where to post, you can always start with the `#users` stream 
 The discussions in the project chat are archived and public.
 There's no guarantee those logs will be saved indefinitely, though we plan keep them as long as we're permitted to do so.
 
-Keep in mind that users participate in the project chat voluntarily, so please be respectful of their time and interests.
+Keep in mind that people participate in the project chat voluntarily, so please be respectful of their time and interests.
 The project chat is not 1-on-1 support.
-You are in a public forum.
+You're in a public space.
 
 Do not `@` mention someone when writing a message unless a) the subject matter absolutely requires the attention of that person or b) that person has already replied to the topic and is interacting with you.
 Using the `@` mention to draw attention to your question is not courteous to that person or fair to others.
