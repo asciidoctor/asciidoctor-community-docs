@@ -53,8 +53,9 @@ IMPORTANT: If the issue does not pertain to Asciidoctor core, please file the is
 For example, to file an issue about AsciidoctorJ, please use the issue tracker at https://github.com/asciidoctor/asciidoctorj/issues.
 
 The issue tracker is the preferred channel for reporting verifiable bugs, regressions, and security vulnerabilities, or for making formal, specific, and well-defined change requests.
-*Please direct all questions about usage of the software to the <<chat,project chat>> instead.*
-Please do not comment on closed issues unless you're following up to report whether or not the fix worked for you.
+*Please do not ask questions about how to use the software in the issue tracker.*
+Instead, you may direct questions about usage to the <<chat,project chat>>.
+Please do not comment on closed issues unless you're reporting whether the fix worked for you.
 
 Any significant change or decision about the project's software is recorded in the issue tracker.
 The issue tracker is also used for planning releases via milestones and labels.
