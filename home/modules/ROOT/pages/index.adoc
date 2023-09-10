@@ -27,7 +27,7 @@ You can also find a side-by-side xref:asciidoc::asciidoc-vs-markdown.adoc[compar
 == xref:asciidoctor::index.adoc[Process your AsciiDoc content]
 
 The AsciiDoc language documentation is primarily about the source you type to compose a document.
-One you're done writing and want to publish your AsciiDoc document, you'll need an AsciiDoc processor.
+Once you're done writing and want to publish your AsciiDoc document, you'll need an AsciiDoc processor.
 That's where Asciidoctor fits in.
 
 xref:asciidoctor::index.adoc[Asciidoctor] is the core AsciiDoc processor.
