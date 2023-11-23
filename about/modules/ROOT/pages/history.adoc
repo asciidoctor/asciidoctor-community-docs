@@ -1,4 +1,5 @@
 = History
+:page-noindex:
 
 AsciiDoc as we know it today has been two decades in the making.
 
