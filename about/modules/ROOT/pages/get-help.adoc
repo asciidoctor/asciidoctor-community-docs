@@ -55,8 +55,8 @@ For example, to file an issue about AsciidoctorJ, please use the issue tracker a
 The issue tracker is the preferred channel for reporting verifiable bugs, regressions, and security vulnerabilities, or for making formal, specific, and well-defined change requests.
 *Please do not ask questions about how to use the software in the issue tracker.*
 Instead, you may direct questions about usage to the <<chat,project chat>>.
-Please do not comment on closed issues unless you're reporting whether the fix worked for you.
-Also, if you post an unproductive comment on an open issue, such as "`What's the status of this issue after X years?`", your comment will be deleted.
+Please do not comment on closed issues unless you're adding additional context, such as to report whether the fix worked for you or how you made use of it.
+If you post an unproductive comment on an open issue, such as "`What's the status of this issue after X years?`", your comment will be deleted.
 
 Any significant change or decision about the project's software is recorded in the issue tracker.
 The issue tracker is also used for planning releases via milestones and labels.
