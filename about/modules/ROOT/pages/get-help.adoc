@@ -19,7 +19,8 @@ URL:: https://chat.asciidoctor.org
 This policy helps keep the project sustainable.
 If you want to ask for help, share feedback, or exchange ideas with fellow community members in real time, please do so in the project chat.
 
-The chat is partitioned into streams.
+The chat also serves as the project forum.
+Like a forum, the chat is partitioned into streams.
 If you find an ongoing discussion that matches the topic you're interested in, feel free to join that discussion.
 Otherwise, please post a new topic in the `#users` stream (*not* the `#community` stream).
 Please do not post unrelated questions or comments to an existing topic since that disrupts the discussion and makes answers more difficult to find.
