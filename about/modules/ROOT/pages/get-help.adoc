@@ -29,7 +29,9 @@ TIP: Please use the filter or search feature to find existing topics before star
 
 If you're starting a new topic that relates to a specific project, check if there's a stream for that project and post to that stream instead of the `#users` stream.
 For example, if you want to ask a question that only applies to AsciidoctorJ, please create the topic in the `#users/asciidoctorj` stream.
-If you aren't sure where to post, you can always start with the `#users` stream and a moderator will relocate the topic if necessary.
+
+*If you aren't sure where to post, please post in the `#users` stream and a moderator will relocate the topic if necessary.*
+No action is needed on your part.
 
 The discussions in the project chat are archived and public.
 There's no guarantee those logs will be saved indefinitely, though we plan keep them as long as we're permitted to do so.
