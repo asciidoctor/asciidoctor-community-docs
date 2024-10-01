@@ -20,17 +20,17 @@ This policy helps keep the project sustainable.
 If you want to ask for help, share feedback, or exchange ideas with fellow community members in real time, please do so in the project chat.
 
 The chat also serves as the project forum.
-Like a forum, the chat is partitioned into streams.
+Like a forum, the chat is partitioned into channels.
 If you find an ongoing discussion that matches the topic you're interested in, feel free to join that discussion.
-Otherwise, please post a new topic in the `#users` stream (*not* the `#community` stream).
-Please do not post unrelated questions or comments to an existing topic since that disrupts the discussion and makes answers more difficult to find.
+Otherwise, please post a new topic in the `#users` channel (*not* the `#community` channel, please!)
+Please *do not post* unrelated questions or comments to an existing topic since that disrupts the discussion and makes answers more difficult to find.
 
 TIP: Please use the filter or search feature to find existing topics before starting a new one.
 
-If you're starting a new topic that relates to a specific project, check if there's a stream for that project and post to that stream instead of the `#users` stream.
-For example, if you want to ask a question that only applies to AsciidoctorJ, please create the topic in the `#users/asciidoctorj` stream.
+If you're starting a new topic that relates to a specific project, check if there's a channel for that project and post to that channel instead of the `#users` channel.
+For example, if you want to ask a question that only applies to AsciidoctorJ, please create the topic in the `#users/asciidoctorj` channel.
 
-*If you aren't sure where to post, please post in the `#users` stream and a moderator will relocate the topic if necessary.*
+*If you aren't sure where to post, please post in the `#users` channel and a moderator will relocate the topic if necessary.*
 No action is needed on your part.
 
 The discussions in the project chat are archived and public.
