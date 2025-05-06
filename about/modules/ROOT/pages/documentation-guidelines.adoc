@@ -1,0 +1,62 @@
+= Documentation Guidelines
+:url-antora-content-files: https://docs.antora.org/antora/latest/organize-content-files/
+
+This document provides essential guidelines for documentation recommended for each project within the Asciidoctor organization.
+
+== Overview
+
+* Each project repository in the Asciidoctor organization will have its own documentation, which will be organized as {url-antora-content-files}[content files] for Antora.
+* Code snippets and examples should be linked and automatically extracted from the source code or test cases to ensure accuracy.
+* The code must be tested.
+* The Asciidoctor organization docs repository will build each projects' documentation for publication on the Asciidoctor project.
+
+== Audiences
+
+The documentation should be suitable for a diverse user base, including new users, experienced users, developers, and contributors.
+Essential documentation includes:
+
+* Install and use quick start
+* User manual
+* Technical manual 
+* Contributor manual
+* README
+
+== Project Requirements
+
+Every repository in the Asciidoctor organization should include:
+
+. README
+. Documentation organized as content files for Antora in a `docs` folder
+.. Reference documentation detailing attributes, options, styles, and configurations with usage examples
+.. Quick Start guides including installation, configuration, and basic usage instructions with clear examples
+.. API reference documentation
+. Changelog history
+. Dedicated branch exclusively for documentation updates
+
+NOTE: All code examples should be pulled from the actual source code or test suites to ensure accuracy and reliability.
+
+== Install and use quick start
+
+Contains requirements, installation, configuration, and basic usage instructions with examples.
+
+== User manual
+
+Detailed instructions and explanations on using the software, including key features, workflows, and troubleshooting tips.
+
+Audience:: All users
+Style:: Clear, comprehensive, and user-focused
+
+== Technical manual
+
+Comprehensive documentation outlining source code details and operational mechanisms.
+
+Audience:: Developers, testers, and experienced users
+Writing style:: Concise but conversational
+
+== Contributor manual
+
+Guidance on contributing effectively to the project.
+
+Audience:: All levels of users and developers
+Writing style:: Conversational
+
